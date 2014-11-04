@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Raya Photography</title>
+		<meta name="handheldfriendly" content="true">
+		<meta name="mobileoptimized" content="240">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link href="css/reset.css" rel="stylesheet">
+		<link href="css/general.css" rel="stylesheet">
+        <link href="css/jquery-ui-1.10.3.custom.min.css" rel="stylesheet">
+        <link href="css/carousel.css" rel="stylesheet">
+		<script src="js/nav.js"></script>	        
+
+    </head>
+
+	<body> 
+        <header>
+            <div class="logoname"><h1>Raya Photography</h1></div>
+            <!--toggle button for a screen smaller than 25em-->
+            <a href="#nav" class="nav-btn hide-text" data-state="inactive">Navigation</a> <!---replace 'navigation' with the svg button and starts as inactive for a smaller screen size-->
+            <nav class="nav nav-top" data-state="collapsed"><!---collapsed toggle button state---->                
+                <ul>
+                    <li><a href="gallery.php">Gallery</a></li>
+                    <li><a href="prices.php">Prices</a></li>
+                    <li><a href="Bio">Bio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="contact.php" class="activelink">Contact</a></li>
+                    <li class="about"><p>About Raya Marvel</p><p>She was born and raised in Santa Maria, California. In 2000, she received her BFA from Cornish College in Seattle. Since then, she has been through Costa Rica, Panama, Mexico, and most of the United States and Canada spreading her unique sense of humor and creative energy.</p></li>
+                </ul>
+            </nav>
+            <div class="footer sidebar"><!--sidebar footer-->
+                <div class="socialMedia"><a href="http://www.facebook.com" target="_blank" class="social facebook hide-text">Facebook</a><a href="http://twitter.com" target="_blank" class="social twitter hide-text">Twitter</a><a href="http://www.vanburg87.tumblr.com" target="_blank" class="social tumblr hide-text">Tumblr</a><a href="http://linkedin.com" target="_blank" class="social linkedin hide-text">Linkedin</a></div>
+                <p class="copyright">&copy; 2013 VBurguete Design. All rights reserved.</p>
+            </div>
+        </header>
+		<div class="main">
+        	<div class="formwrapper">
+            	<h2>Send Me a Shout</h2>
+					<p>Requests or comments are strongly encouraged.</p>
+                    <p>You can also e-mail me at: <a href="mailto:vanessa.burguete@gmail.com" style="color:#fff; text-decoration:underline;">raya@photostudio.com</a></p>
+                <div class="formbox">
+                    <form>
+                        <div class="row half">
+                            <div class="6u"><input type="text" id="name" class="text" name="name" placeholder="Name" /></div>
+                            <div class="6u"><input type="text" id="email" class="text" name="email" placeholder="Email" /></div>
+                        </div>
+                        <div class="row half">
+                            <div class="12u">
+                                <textarea name="message"id="message" class="text" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                      <div class="submit">
+                        <input type="submit" value="SEND MESSAGE" id="button"/>
+                        <div class="ease"></div>
+                      </div>
+               	 </form>
+               	</div>
+            </div>
+		</div><!--main ends here-->
+        
+        <div class="footer bottom"><!--bottom footer once sidebar is no longer being used at a smaller screen size-->
+            <p class="about"><span class="title">About Raya Marvel</span><br>She was born and raised in Santa Maria, California. In 2000, she received her BFA from Cornish College in Seattle. Since then, she has been through Costa Rica, Panama, Mexico, and most of the United States and Canada spreading her unique sense of humor and creative energy.</p>
+            <div class="socialMedia"><a href="#" class="social facebook hide-text">Facebook</a><a href="#" class="social twitter hide-text">Twitter</a><a href="#" class="social tumblr hide-text">Tumblr</a><a href="#" class="social linkedin hide-text">Linkedin</a></div>
+            <p>&copy; 2013 VBurguete Design. All rights reserved.</p>
+        </div>        
+        </body>
+</html>
